@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+<head>
+    <title>SK Bank - Home</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'style.css' %}">
+    <style>
+        /* Add the following CSS to style the footer */
+        footer {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            background-color: darkslategrey;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <div id="branding">
+                    <h1>SK Bank</h1>
+
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="register">Register</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropbtn">Branches</a>
+                        <div class="dropdown-content">
+                            <a href="https://en.wikipedia.org/wiki/Malappuram">Malappuram</a>
+                            <a href="https://en.wikipedia.org/wiki/Ernakulam">Ernakulam</a>
+                            <a href="https://en.wikipedia.org/wiki/Kozhikode">Kozhikode</a>
+                            <a href="https://en.wikipedia.org/wiki/Kannur">Kannur</a>
+                            <a href="https://en.wikipedia.org/wiki/Idukki">Idukki</a>
+                        </div>
+                    </li>
+                    <a href="login" class="button">Login</a>
+                </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <div class="container">
+            <h1>Welcome to Your Bank Name</h1>
+            <p>Your trusted partner for financial services.</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Your Bank Name</p>
+        </div>
+    </footer>
+</body>
+</html>
